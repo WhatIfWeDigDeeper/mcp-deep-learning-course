@@ -10,3 +10,8 @@ dependencies = [
     "ipykernel>=7.1.0",
     "python-dotenv>=1.2.1",
 ]
+
+[tool.uv.workspace]
+members = [
+    "L4/mcp_project",
+]
