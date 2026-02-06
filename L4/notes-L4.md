@@ -3,6 +3,7 @@
 ## Setup
 
 ```sh
+cd L4/mcp_project
 uv init
 uv venv
 source .venv/bin/activate
