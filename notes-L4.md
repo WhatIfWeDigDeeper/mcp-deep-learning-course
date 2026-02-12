@@ -13,5 +13,5 @@ uv add mcp arxiv
 ## MCP Inspector
 
 ```bash
-npx @modelcontextprotocol/inspector uv run research_server.py
+npx -y @modelcontextprotocol/inspector uv run research_server.py
 ```
