@@ -2,8 +2,8 @@ version: "0.2"
 ignorePaths: []
 dictionaryDefinitions: []
 dictionaries: []
-words: [
-  "anthropic"
-]
+words:
+  - anthropic
+  - venv
 ignoreWords: []
 import: []
