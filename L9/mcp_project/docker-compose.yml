@@ -1,0 +1,10 @@
+services:
+  research-server:
+    build: .
+    ports:
+      - "8001:8001"
+    volumes:
+      - papers-data:/app/papers
+
+volumes:
+  papers-data:
