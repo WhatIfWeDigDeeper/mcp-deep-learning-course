@@ -1,0 +1,59 @@
+{
+  "2601.10758v1": {
+    "title": "Too Helpful to Be Safe: User-Mediated Attacks on Planning and Web-Use Agents",
+    "authors": [
+      "Fengchao Chen",
+      "Tingmin Wu",
+      "Van Nguyen",
+      "Carsten Rudolph"
+    ],
+    "summary": "Large Language Models (LLMs) have enabled agents to move beyond conversation toward end-to-end task execution and become more helpful. However, this helpfulness introduces new security risks stem less from direct interface abuse than from acting on user-provided content. Existing studies on agent security largely focus on model-internal vulnerabilities or adversarial access to agent interfaces, overlooking attacks that exploit users as unintended conduits. In this paper, we study user-mediated attacks, where benign users are tricked into relaying untrusted or attacker-controlled content to agents, and analyze how commercial LLM agents respond under such conditions. We conduct a systematic evaluation of 12 commercial agents in a sandboxed environment, covering 6 trip-planning agents and 6 web-use agents, and compare agent behavior across scenarios with no, soft, and hard user-requested safety checks. Our results show that agents are too helpful to be safe by default. Without explicit safety requests, trip-planning agents bypass safety constraints in over 92% of cases, converting unverified content into confident booking guidance. Web-use agents exhibit near-deterministic execution of risky actions, with 9 out of 17 supported tests reaching a 100% bypass rate. Even when users express soft or hard safety intent, constraint bypass remains substantial, reaching up to 54.7% and 7% for trip-planning agents, respectively. These findings reveal that the primary issue is not a lack of safety capability, but its prioritization. Agents invoke safety checks only conditionally when explicitly prompted, and otherwise default to goal-driven execution. Moreover, agents lack clear task boundaries and stopping rules, frequently over-executing workflows in ways that lead to unnecessary data disclosure and real-world harm.",
+    "pdf_url": "https://arxiv.org/pdf/2601.10758v1",
+    "published": "2026-01-14"
+  },
+  "2505.03786v1": {
+    "title": "When Reasoning Beats Scale: A 1.5B Reasoning Model Outranks 13B LLMs as Discriminator",
+    "authors": [
+      "Md Fahim Anjum"
+    ],
+    "summary": "Large Language Models (LLM) with reasoning capabilities offer a promising path for improving candidate evaluation in planning frameworks, but their relative performance against traditional non-reasoning models remains largely underexplored. In this study, we benchmark a distilled 1.5B parameter reasoning model (DeepSeek-R1) against several state-of-the-art non-reasoning LLMs within a generator-discriminator LLM planning framework for the text-to-SQL task. For this, we introduce a novel method for extracting soft scores from the chain-of-thought (CoT) outputs from reasoning that enables fine-grained ranking of candidates. Our central hypothesis is that reasoning models are more effective discriminators than non-reasoning LLMs. Our results show that distilled DeepSeek-R1-1.5B achieves up to $87\\%$ higher F1 and $3.7\\%$ better discrimination accuracy than CodeLlama-7B, as well as $3.7\\%$ higher execution accuracy than CodeLlama-13B, despite having significantly fewer parameters. Furthermore, we find that there is a limit to the logical capabilities of reasoning models, and only providing more context or allowing more compute budget for reasoning is not enough to improve their discrimination performance. Finally, we demonstrate that, unlike non-reasoning LLMs, reasoning models find generation more challenging than discrimination and may underperform as generators compared to smaller non-reasoning LLMs. Our work highlights the potential of reasoning models as discriminators in agentic frameworks, far outweighing their capabilities as generators, offering insights into their optimal role within LLM planning infrastructures.",
+    "pdf_url": "https://arxiv.org/pdf/2505.03786v1",
+    "published": "2025-04-30"
+  },
+  "2504.16021v1": {
+    "title": "Navigating the State of Cognitive Flow: Context-Aware AI Interventions for Effective Reasoning Support",
+    "authors": [
+      "Dinithi Dissanayake",
+      "Suranga Nanayakkara"
+    ],
+    "summary": "Flow theory describes an optimal cognitive state where individuals experience deep focus and intrinsic motivation when a task's difficulty aligns with their skill level. In AI-augmented reasoning, interventions that disrupt the state of cognitive flow can hinder rather than enhance decision-making. This paper proposes a context-aware cognitive augmentation framework that adapts interventions based on three key contextual factors: type, timing, and scale. By leveraging multimodal behavioral cues (e.g., gaze behavior, typing hesitation, interaction speed), AI can dynamically adjust cognitive support to maintain or restore flow. We introduce the concept of cognitive flow, an extension of flow theory in AI-augmented reasoning, where interventions are personalized, adaptive, and minimally intrusive. By shifting from static interventions to context-aware augmentation, our approach ensures that AI systems support deep engagement in complex decision-making and reasoning without disrupting cognitive immersion.",
+    "pdf_url": "https://arxiv.org/pdf/2504.16021v1",
+    "published": "2025-04-22"
+  },
+  "2405.07551v1": {
+    "title": "MuMath-Code: Combining Tool-Use Large Language Models with Multi-perspective Data Augmentation for Mathematical Reasoning",
+    "authors": [
+      "Shuo Yin",
+      "Weihao You",
+      "Zhilong Ji",
+      "Guoqiang Zhong",
+      "Jinfeng Bai"
+    ],
+    "summary": "The tool-use Large Language Models (LLMs) that integrate with external Python interpreters have significantly enhanced mathematical reasoning capabilities for open-source LLMs, while tool-free methods chose another track: augmenting math reasoning data. However, a great method to integrate the above two research paths and combine their advantages remains to be explored. In this work, we firstly include new math questions via multi-perspective data augmenting methods and then synthesize code-nested solutions to them. The open LLMs (i.e., Llama-2) are finetuned on the augmented dataset to get the resulting models, MuMath-Code ($\u03bc$-Math-Code). During the inference phase, our MuMath-Code generates code and interacts with the external python interpreter to get the execution results. Therefore, MuMath-Code leverages the advantages of both the external tool and data augmentation. To fully leverage the advantages of our augmented data, we propose a two-stage training strategy: In Stage-1, we finetune Llama-2 on pure CoT data to get an intermediate model, which then is trained on the code-nested data in Stage-2 to get the resulting MuMath-Code. Our MuMath-Code-7B achieves 83.8 on GSM8K and 52.4 on MATH, while MuMath-Code-70B model achieves new state-of-the-art performance among open methods -- achieving 90.7% on GSM8K and 55.1% on MATH. Extensive experiments validate the combination of tool use and data augmentation, as well as our two-stage training strategy. We release the proposed dataset along with the associated code for public use.",
+    "pdf_url": "https://arxiv.org/pdf/2405.07551v1",
+    "published": "2024-05-13"
+  },
+  "2107.05664v1": {
+    "title": "Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic",
+    "authors": [
+      "Behrad Toghi",
+      "Rodolfo Valiente",
+      "Dorsa Sadigh",
+      "Ramtin Pedarsani",
+      "Yaser P. Fallah"
+    ],
+    "summary": "With the adoption of autonomous vehicles on our roads, we will witness a mixed-autonomy environment where autonomous and human-driven vehicles must learn to co-exist by sharing the same road infrastructure. To attain socially-desirable behaviors, autonomous vehicles must be instructed to consider the utility of other vehicles around them in their decision-making process. Particularly, we study the maneuver planning problem for autonomous vehicles and investigate how a decentralized reward structure can induce altruism in their behavior and incentivize them to account for the interest of other autonomous and human-driven vehicles. This is a challenging problem due to the ambiguity of a human driver's willingness to cooperate with an autonomous vehicle. Thus, in contrast with the existing works which rely on behavior models of human drivers, we take an end-to-end approach and let the autonomous agents to implicitly learn the decision-making process of human drivers only from experience. We introduce a multi-agent variant of the synchronous Advantage Actor-Critic (A2C) algorithm and train agents that coordinate with each other and can affect the behavior of human drivers to improve traffic flow and safety.",
+    "pdf_url": "https://arxiv.org/pdf/2107.05664v1",
+    "published": "2021-07-12"
+  }
+}
