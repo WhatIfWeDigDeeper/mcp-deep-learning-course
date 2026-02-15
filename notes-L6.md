@@ -1,6 +1,6 @@
 # Lesson 6: Connecting the MCP Chatbot to Reference Servers
 
-[L6 Jupyter Notebook](L6/L6.ipynb)
+[Jupyter Notebook](L6/L6.ipynb)
 
 ## Reference Servers by Anthropic
 

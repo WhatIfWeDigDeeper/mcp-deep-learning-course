@@ -1,5 +1,7 @@
 # Lesson 9: Creating and Deploying Remote Servers
 
+[Jupyter Notebook](L9/L9.ipynb)
+
 ## Setup
 
 ## Setup

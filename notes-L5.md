@@ -1,4 +1,6 @@
-# L5
+# Lesson 5: Creating an MCP Client
+
+[Jupyter Notebook](L5/L5.ipynb)
 
 ## Setup
 

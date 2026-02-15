@@ -1,5 +1,7 @@
 # Lesson 7: Adding Prompt and Resource Features
 
+[Jupyter Notebook](L7/L7.ipynb)
+
 ## Setup
 
 ```sh

@@ -1,4 +1,6 @@
-# L4
+# Lesson 4: Creating an MCP Server
+
+[Jupyter Notebook](L4/L4.ipynb)
 
 ## Setup
 
